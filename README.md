@@ -14,13 +14,15 @@
 
 ### 👋 Giới thiệu
 
-Lập trình viên **backend .NET (2 năm)** làm trên hệ thống **ERP / hoá đơn điện tử production** thật —
-SQL Server, phân quyền phức tạp, tích hợp. Tự học và mở rộng sang **DevOps**: tự động hoá release,
-dựng **CI/CD + Kubernetes (GitOps)** chạy thật.
+.NET Developer **2+ năm** tại **idocNet** — phát triển & bảo trì **4 hệ enterprise**: DMS phân phối xe
+Hyundai (80+ đại lý), TVAN (nền tảng hoá đơn điện tử), CarService, InBrand. Kiến trúc phân lớp
+Controller→Service→Biz→DAL, tích hợp đa hệ (5 bank API, gateway HĐĐT, SSO OAuth2), RBAC 3 trục trên
+SQL Server đa tenant. Tự học và mở rộng sang **DevOps**: dựng **CI/CD + Kubernetes (GitOps)** chạy thật.
 
-- 🔭 Đang mở cơ hội **remote (.NET / DevOps)**
+- 🔭 Đang mở cơ hội **.NET / DevOps** — remote hoặc Hà Nội
 - 🌱 Làm được cả hai đầu: **code** và **hạ tầng đưa code lên production**
-- 📍 GMT+7 · làm việc remote
+- 🎓 Cử nhân CNTT — Lincoln University College · TOEIC 595
+- 📍 Hà Nam · GMT+7
 
 ### 🛠️ Tech stack
 
@@ -42,8 +44,9 @@ dựng **CI/CD + Kubernetes (GitOps)** chạy thật.
 | Dự án | Mô tả | |
 |---|---|---|
 | **[cicd-k8s-lab](https://github.com/Tranletrungkien1705/cicd-k8s-lab)** | Hệ CI/CD + Kubernetes GitOps hoàn chỉnh: `git push` → build → Argo CD tự sync → rolling update, kèm Prometheus/Grafana. | `k8s` `Argo CD` `Actions` |
+| **[MiniDMS](https://github.com/Tranletrungkien1705/MiniDMS)** | Web quản lý kho + đơn hàng + công nợ, RBAC 4 vai trò, import Excel, xuất báo cáo. | `ASP.NET Core 8` `EF Core 8` |
+| **[Student Management](https://github.com/Tranletrungkien1705/project3-aptech-dotnet)** | Web quản lý học tập 5 vai trò (lớp, TKB, bài tập, chấm điểm). Clean Architecture + RBAC. | `ASP.NET MVC` `EF` `Identity` |
 | **[Portfolio](https://tranletrungkien1705.github.io/)** | Trang cá nhân static, **tự auto-deploy** lên GitHub Pages mỗi lần push. | `HTML` `Pages` `CI/CD` |
-| **Automated release cho .NET ERP** *(private/NDA)* | Thay deploy tay bằng pipeline build → backup → deploy → smoke test, cổng release theo tag. | `.NET` `MSBuild` `PowerShell` |
 
 ### 📊 GitHub
 
