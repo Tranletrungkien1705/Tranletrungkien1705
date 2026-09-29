@@ -46,6 +46,7 @@ SQL Server đa tenant. Tự học và mở rộng sang **DevOps**: dựng **CI/C
 | **[cicd-k8s-lab](https://github.com/Tranletrungkien1705/cicd-k8s-lab)** | Hệ CI/CD + Kubernetes GitOps hoàn chỉnh: `git push` → build → Argo CD tự sync → rolling update, kèm Prometheus/Grafana. | `k8s` `Argo CD` `Actions` |
 | **[MiniDMS](https://github.com/Tranletrungkien1705/MiniDMS)** | Web quản lý kho + đơn hàng + công nợ, RBAC 4 vai trò, import Excel, xuất báo cáo. | `ASP.NET Core 8` `EF Core 8` |
 | **[Student Management](https://github.com/Tranletrungkien1705/project3-aptech-dotnet)** | Web quản lý học tập 5 vai trò (lớp, TKB, bài tập, chấm điểm). Clean Architecture + RBAC. | `ASP.NET MVC` `EF` `Identity` |
+| **[terraform-k8s-iac](https://github.com/Tranletrungkien1705/terraform-k8s-iac)** | Infrastructure as Code: `terraform apply` provision namespace/deployment/service/ingress lên Kubernetes. | `Terraform` `Kubernetes` `IaC` |
 | **[Portfolio](https://tranletrungkien1705.github.io/)** | Trang cá nhân static, **tự auto-deploy** lên GitHub Pages mỗi lần push. | `HTML` `Pages` `CI/CD` |
 
 ### 📊 GitHub
